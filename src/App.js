@@ -2,15 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  let r = 'React'
-  let rn = 'React Native'
-  const el=(
-      <div>
-        Create Web & Mobile Apps<br/>
-        with {r} & {rn}
-      </div>
-    )
-  return el 
+  const divStyle={
+    color: 'red' ,
+    backgroundColor:'powderblue',
+    fontSize:'larger',
+    padding:'3px'
+  }
+  return <div style={divStyle}>Hello React</div>
 }
 
 export default App;
